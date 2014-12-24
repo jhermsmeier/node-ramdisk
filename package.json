@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-ramdisk/issues"
   },
-  "homepage": "https://github.com/jhermsmeier/node-ramdisk"
+  "homepage": "https://github.com/jhermsmeier/node-ramdisk",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
 }
