@@ -37,6 +37,15 @@ describe( 'RamDisk', function() {
       })
     })
     
+    it( 'should throw if cluster count exceeds INT_MAX', function() {
+      assert.throws( function() {
+        var device = new RamDisk({
+          size: Math.pow( 2, 48 ),
+          clusterSize: 512
+        })
+      })
+    })
+    
   })
   
 })
