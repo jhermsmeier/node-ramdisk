@@ -1,6 +1,6 @@
 {
   "name": "ramdisk",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "RAM disk which behaves like a blockdevice",
   "main": "lib/ramdisk",
   "directories": {
