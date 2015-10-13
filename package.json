@@ -1,18 +1,8 @@
 {
   "name": "ramdisk",
   "version": "0.2.0",
-  "description": "RAM disk which behaves like a blockdevice",
-  "main": "lib/ramdisk",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jhermsmeier/node-ramdisk.git"
-  },
+  "description": "RAM disk which behaves like a BlockDevice",
+  "license": "MIT",
   "keywords": [
     "ram",
     "disk",
@@ -21,13 +11,22 @@
     "block",
     "device"
   ],
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com>",
-  "license": "MIT",
+  "main": "lib/ramdisk",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-ramdisk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-ramdisk.git"
+  },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-ramdisk/issues"
   },
-  "homepage": "https://github.com/jhermsmeier/node-ramdisk",
-  "devDependencies": {
-    "mocha": "^2.1.0"
+  "directories": {
+    "test": "test"
   }
 }
