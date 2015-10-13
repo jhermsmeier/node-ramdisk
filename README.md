@@ -1,9 +1,9 @@
-# RAMDISK
-[![npm](http://img.shields.io/npm/v/ramdisk.svg?style=flat)](https://npmjs.org/ramdisk)
-[![npm downloads](http://img.shields.io/npm/dm/ramdisk.svg?style=flat)](https://npmjs.org/ramdisk)
-[![build status](http://img.shields.io/travis/jhermsmeier/node-ramdisk.svg?style=flat)](https://travis-ci.org/jhermsmeier/node-ramdisk)
+# RAMDisk
+[![npm](http://img.shields.io/npm/v/ramdisk.svg?style=flat-square)](https://npmjs.com/ramdisk)
+[![npm downloads](http://img.shields.io/npm/dm/ramdisk.svg?style=flat-square)](https://npmjs.com/ramdisk)
+[![build status](http://img.shields.io/travis/jhermsmeier/node-ramdisk.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-ramdisk)
 
-## Install via [npm](https://npmjs.org)
+## Install via [npm](https://npmjs.com)
 
 ```sh
 $ npm install ramdisk
@@ -19,16 +19,6 @@ I'll work on it, I promise.
 
 Thing is, it allocates sparsely (with the worst possible allocator (if you can even call it that) ever written to date) -
 meaning - you can specify 4 GB as size & you won't occupy 4 GB of memory, until you actually write to every sector.
-
-## Schrödinger's Issues
-
-Issues that may, or may not appear during usage.
-
-- The cluster allocator isn't tested very well, and might just not put your data somewhere
-- Same thing goes for reading, but in reverse - you might not get it back out again
-- Also, it doesn't allocate the defined size in advance, it's totally possible to run out of memory during operation
-- Partitioning will most likely fail || break - I was lazy & just copied it from `blockdevice`
-- That's all I can think of right now... If anything breaks, write an issue, please :)
 
 ## Usage
 
