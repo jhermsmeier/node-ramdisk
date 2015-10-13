@@ -1,6 +1,6 @@
 {
   "name": "ramdisk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "RAM disk which behaves like a BlockDevice",
   "license": "MIT",
   "keywords": [
@@ -14,7 +14,9 @@
   "main": "lib/ramdisk",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~2.3.3"
+  },
   "scripts": {
     "test": "mocha"
   },
