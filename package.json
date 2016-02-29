@@ -1,6 +1,6 @@
 {
   "name": "ramdisk",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "RAM disk which behaves like a BlockDevice",
   "license": "MIT",
   "keywords": [
