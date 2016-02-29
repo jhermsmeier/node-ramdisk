@@ -1,7 +1,7 @@
-# RAMDisk
-[![npm](http://img.shields.io/npm/v/ramdisk.svg?style=flat-square)](https://npmjs.com/ramdisk)
-[![npm downloads](http://img.shields.io/npm/dm/ramdisk.svg?style=flat-square)](https://npmjs.com/ramdisk)
-[![build status](http://img.shields.io/travis/jhermsmeier/node-ramdisk.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-ramdisk)
+# RAM Disk
+[![npm](https://img.shields.io/npm/v/ramdisk.svg?style=flat-square)](https://npmjs.com/ramdisk)
+[![npm downloads](https://img.shields.io/npm/dm/ramdisk.svg?style=flat-square)](https://npmjs.com/ramdisk)
+[![build status](https://img.shields.io/travis/jhermsmeier/node-ramdisk.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-ramdisk)
 
 ## Install via [npm](https://npmjs.com)
 
